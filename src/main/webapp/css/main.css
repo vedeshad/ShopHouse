@@ -1,0 +1,39 @@
+body {
+	background-color: #83D3D3;
+	margin: 0px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+	display: fixed;
+	padding: 20px;
+	background-color: #018c8c;
+	font-size: x-large;
+	font-weight: 700;
+}
+
+nav>.btn {
+	display: flex;
+	margin-left: 4px;
+	align-items: flex-end;
+}
+
+nav>.btn {
+	margin-top: -2px;
+	float: right;
+	display: inline;
+	border-radius: 4px;
+	background-color: #73f8f8;
+	border: none;
+	color: #000;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: x-large;
+	padding: 5px;
+	width: 150px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #83D3D3;
+}
